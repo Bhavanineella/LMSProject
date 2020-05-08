@@ -8,7 +8,7 @@ import com.capgemini.librarymanagementsystem.dto.RequestInfo;
 import com.capgemini.librarymanagementsystem.dto.UserInfo;
 import com.capgemini.librarymanagementsystem.exception.LMSException;
 
-public class UserDAOImplement implements UserDAO {
+public class UserDAOImplementation implements UserDAO {
 
 	@Override
 	public boolean registerUser(UserInfo user) {

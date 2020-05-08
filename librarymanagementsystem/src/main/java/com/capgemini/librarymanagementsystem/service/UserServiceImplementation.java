@@ -8,7 +8,7 @@ import com.capgemini.librarymanagementsystem.dto.RequestInfo;
 import com.capgemini.librarymanagementsystem.dto.UserInfo;
 import com.capgemini.librarymanagementsystem.factory.LibraryFactory;
 
-public class UserServiceImplement implements UserService {
+public class UserServiceImplementation implements UserService {
 	
 	private UserDAO dao=LibraryFactory.getUserDAO();
 

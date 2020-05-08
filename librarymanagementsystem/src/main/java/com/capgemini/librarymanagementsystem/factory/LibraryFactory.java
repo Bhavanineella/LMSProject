@@ -1,18 +1,18 @@
 package com.capgemini.librarymanagementsystem.factory;
 
 import com.capgemini.librarymanagementsystem.dao.AdminDAO;
-import com.capgemini.librarymanagementsystem.dao.AdminDAOImplement;
+import com.capgemini.librarymanagementsystem.dao.AdminDAOImplementation;
 import com.capgemini.librarymanagementsystem.dao.UserDAO;
-import com.capgemini.librarymanagementsystem.dao.UserDAOImplement;
+import com.capgemini.librarymanagementsystem.dao.UserDAOImplementation;
 import com.capgemini.librarymanagementsystem.service.AdminService;
 import com.capgemini.librarymanagementsystem.service.AdminServiceImplementation;
 import com.capgemini.librarymanagementsystem.service.UserService;
-import com.capgemini.librarymanagementsystem.service.UserServiceImplement;
+import com.capgemini.librarymanagementsystem.service.UserServiceImplementation;
 
 public class LibraryFactory {
 	
 	public static AdminDAO getAdminDAO() {
-		return new AdminDAOImplement();
+		return new AdminDAOImplementation();
 	}
 	
 	public static AdminService getAdminService() {
@@ -20,10 +20,10 @@ public class LibraryFactory {
 	}
 	
 	public static UserDAO getUserDAO() {
-		return new UserDAOImplement();
+		return new UserDAOImplementation();
 	}
 	
 	public static UserService getUserService() {
-		return new UserServiceImplement();
+		return new UserServiceImplementation();
 	}
 }

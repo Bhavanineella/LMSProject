@@ -10,7 +10,7 @@ import com.capgemini.librarymanagementsystem.dto.RequestInfo;
 import com.capgemini.librarymanagementsystem.dto.UserInfo;
 import com.capgemini.librarymanagementsystem.exception.LMSException;
 
-public class AdminDAOImplement implements AdminDAO {
+public class AdminDAOImplementation implements AdminDAO {
 	
 	@Override
 	public boolean registerAdmin(AdminInfo admin) {

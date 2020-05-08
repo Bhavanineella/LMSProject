@@ -10,7 +10,7 @@ public class BookInfo implements Serializable {
 	private String bookName;
 	private String author;
 	private String category;
-	private String publishername;
+	private String publisherName;
 
 	public BookInfo() {
 		
@@ -22,7 +22,7 @@ public class BookInfo implements Serializable {
 		this.bookName = bookName;
 		this.author = author;
 		this.category = category;
-		this.publishername = publishername;
+		this.publisherName = publisherName;
 	}
 
 	public int getBookId() {
@@ -58,16 +58,16 @@ public class BookInfo implements Serializable {
 	}
 
 	public String getPublishername() {
-		return publishername;
+		return publisherName;
 	}
 
-	public void setPublishername(String publishername) {
-		this.publishername = publishername;
+	public void setPublisherName(String publisherName) {
+		this.publisherName = publisherName;
 	}
 
 	@Override
 	public String toString() {
-		return String.format("%-10s %-10s %-13s %-15s %s", bookId, bookName, author, category, publishername);
+		return String.format("%-10s %-10s %-13s %-15s %s", bookId, bookName, author, category, publisherName);
 	}
 
 }

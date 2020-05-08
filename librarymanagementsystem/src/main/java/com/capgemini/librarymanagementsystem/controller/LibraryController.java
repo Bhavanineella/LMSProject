@@ -273,7 +273,7 @@ public class LibraryController {
 												bean1.setBookId(bookId);
 												bean1.setBookName(bookName);
 												bean1.setAuthor(bookAuthor);
-												bean1.setPublishername(bookPublisherName);
+												bean1.setPublisherName(bookPublisherName);
 												bean1.setCategory(bookCategory);
 												boolean check2 = service.addBook(bean1);
 												if (check2) {
