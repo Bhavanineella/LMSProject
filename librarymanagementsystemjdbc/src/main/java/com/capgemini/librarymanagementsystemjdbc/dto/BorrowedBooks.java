@@ -3,24 +3,24 @@ package com.capgemini.librarymanagementsystemjdbc.dto;
 import java.io.Serializable;
 
 public class BorrowedBooks implements Serializable {
-	private int uId;
-	private int bId;
+	private int userId;
+	private int bookId;
 	private String email;
 
-	public int getuId() {
-		return uId;
+	public int getUserId() {
+		return userId;
 	}
 
-	public void setuId(int uId) {
-		this.uId = uId;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 
-	public int getbId() {
-		return bId;
+	public int getBookId() {
+		return bookId;
 	}
 
-	public void setbId(int bId) {
-		this.bId = bId;
+	public void setBookId(int bookId) {
+		this.bookId = bookId;
 	}
 
 	public String getEmail() {

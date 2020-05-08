@@ -12,15 +12,15 @@ public class BookIssueDetails {
 		return bookId;
 	}
 
-	public void setBookId(int bId) {
-		this.bookId = bId;
+	public void setBookId(int bookId) {
+		this.bookId = bookId;
 	}
 
 	public int getUserId() {
 		return userId;
 	}
 
-	public void setuId(int userId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 

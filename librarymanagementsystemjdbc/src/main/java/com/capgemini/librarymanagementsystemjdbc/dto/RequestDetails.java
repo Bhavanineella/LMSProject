@@ -1,15 +1,15 @@
 package com.capgemini.librarymanagementsystemjdbc.dto;
 
 public class RequestDetails {
-	private int uId;
+	private int userId;
 	private String fullName;
-	private int bId;
+	private int bookId;
 	private String bookName;
-	public int getuId() {
-		return uId;
+	public int getUserId() {
+		return userId;
 	}
-	public void setuId(int uId) {
-		this.uId = uId;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 	public String getFullName() {
 		return fullName;
@@ -17,11 +17,11 @@ public class RequestDetails {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-	public int getbId() {
-		return bId;
+	public int getBookId() {
+		return bookId;
 	}
-	public void setbId(int bId) {
-		this.bId = bId;
+	public void setBookId(int bookId) {
+		this.bookId = bookId;
 	}
 	public String getBookName() {
 		return bookName;
